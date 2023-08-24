@@ -103,7 +103,7 @@ return;
 
 var feature = features[0];
 
-const date = new Date(feature.properties.time_utc);
+const date = new Date(feature.properties.time_local);
 
 // request abbreviated text for month
 const options = {
